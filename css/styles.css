@@ -1,0 +1,136 @@
+/* div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+    display (set is as flex, meaning that we are going to be flexible with the content)
+    flex-direction (row or colum)
+    justify-content 
+        flex-start = align left
+        center
+        flex-end = aling right
+        space-around = Space on both sides
+        space-between = even space between the elements
+        space-evenly = even space at both sides
+    flex (sets the size of the elment, in proportion to the page or the space available, it will always fill out the row)
+    align-items (helps so it does not fill the complete height)
+        flex-start
+        center
+        flex-end
+    align-cells (only to align specific cels within the row.
+
+
+.leftSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.item1{
+    flex: 1;
+}
+
+.item2{
+    flex: 2;
+}
+
+.item3{
+    flex: 1;
+}
+
+.rightSection{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 4;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+} */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.logo > img{
+        height: 50px;
+    }
+
+    
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex: 2;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: grey;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+.menu > li{
+    margin-right: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(197, 196, 196) ;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
